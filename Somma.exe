@@ -6,11 +6,15 @@ int main()
 {
   int x;
   int somma;
+  string version="1.0.0";
   
   cout<< "Inserire numero da sommare e premere INVIO"<<endl;
   cin>>x;
   somma=x+1;
+
   cout<<"Il tuo risultato e': "<<somma<<endl;
+  cout<<"Versione del programma numero: "<<version<<endl;
+
   
   return 0;
 }
