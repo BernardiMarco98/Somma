@@ -5,12 +5,14 @@ using namespace std;
 int main()
 {
   int x;
+  int y;
   int somma;
-  string version="1.0.0";
+  string version="1.0.1";
   
-  cout<< "Inserire numero da sommare e premere INVIO"<<endl;
+  cout<< "Inserire numeri da sommare e premere INVIO"<<endl;
   cin>>x;
-  somma=x+1;
+  cin>>y;
+  somma=x+y;
   cout<<"Il tuo risultato è: "<<somma<<endl;
   cout<<"Versione del programma numero: "<<version<<endl;
   
