@@ -4,13 +4,18 @@ using namespace std;
 
 int main()
 {
-  int x;
-  int somma;
+  int i;
+  int somma=0;
+  string version="1.1.0";
   
-  cout<< "Inserire numero da sommare e premere INVIO"<<endl;
-  cin>>x;
-  somma=x+1;
-  cout<<"Il tuo risultato e': "<<somma<<endl;
+  cout<< "Inserire numeri da sommare, digitare O per interrompere la somma"<<endl;
+
+  while(i!=0)
+  { 
+     somma=somma+i;
+  }
   
+  cout<<"Il tuo risultato è: "<<somma<<endl;
+  cout<<"Versione del programma numero: "<<version<<endl;  
   return 0;
 }
