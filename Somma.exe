@@ -16,7 +16,6 @@ int main()
   }
   
   cout<<"Il tuo risultato è: "<<somma<<endl;
-  cout<<"Versione del programma numero: "<<version<<endl;
-  
+  cout<<"Versione del programma numero: "<<version<<endl;  
   return 0;
 }
