@@ -4,15 +4,17 @@ using namespace std;
 
 int main()
 {
-  int x;
-  int y;
-  int somma;
-  string version="1.0.1";
+  int i;
+  int somma=0;
+  string version="1.1.0";
   
-  cout<< "Inserire numeri da sommare e premere INVIO"<<endl;
-  cin>>x;
-  cin>>y;
-  somma=x+y;
+  cout<< "Inserire numeri da sommare, digitare O per interrompere la somma"<<endl;
+
+  while(i!=0)
+  { 
+     somma=somma+i;
+  }
+  
   cout<<"Il tuo risultato è: "<<somma<<endl;
   cout<<"Versione del programma numero: "<<version<<endl;
   
